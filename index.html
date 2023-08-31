@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kirby's Pinball Land save editor</title>
+</head>
+<body>
+    <h1>Kirby's Pinball Land save file editor</h1>
+    <form>
+        <input type="file" id="infile">
+        <div id="message"></div>
+        <div id="scores">
+            <div class="scorefield">
+                <input type="text" id="name0" maxlength="7" pattern="^[a-zA-Z0-9!.\- ]*$">
+                <input type="text" id="score0" maxlength="8" pattern="^[0-9]+$">
+            </div>
+            <div class="scorefield">
+                <input type="text" id="name1" maxlength="7" pattern="^[a-zA-Z0-9!.\- ]*$">
+                <input type="text" id="score1" maxlength="8" pattern="^[0-9]+$">
+            </div>
+            <div class="scorefield">
+                <input type="text" id="name2" maxlength="7" pattern="^[a-zA-Z0-9!.\- ]*$">
+                <input type="text" id="score2" maxlength="8" pattern="^[0-9]+$">
+            </div>
+            <div class="scorefield">
+                <input type="text" id="name3" maxlength="7" pattern="^[a-zA-Z0-9!.\- ]*$">
+                <input type="text" id="score3" maxlength="8" pattern="^[0-9]+$">
+            </div>
+            <input type="button" value="Save" id="savebutton">
+        </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>

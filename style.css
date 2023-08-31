@@ -1,0 +1,37 @@
+:root {
+    color-scheme: dark;
+}
+
+body {
+    background: #181818;
+    color: #EEE;
+    font-family: sans-serif;
+    max-width: min(95vw, 1000px);
+    margin: auto;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+a:visited {
+    color: #48D;
+}
+
+a {
+    color: #9CF;
+}
+
+#message {
+    color: #ed8181;
+}
+
+#scores {
+    display: none;
+}
+
+.scorefield {
+    margin: 5px 2px;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px #F00;
+}
